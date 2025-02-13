@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <Matrix />
       <Features />
-      {/* <Testimonials /> */}
+      <Testimonials />
       {/* <Testimonials2 /> */}
       {/* <CTA /> */}
       {/* <FAQ /> */}
