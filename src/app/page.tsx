@@ -10,13 +10,14 @@ import { Testimonials2 } from "@/components/sections/testimonials2";
 export default function Home() {
   return (
     <Container>
-      <Hero />
-      <Matrix />
-      <Features />
-      <Testimonials />
+      <div></div>
+      {/* <Hero /> */}
+      {/* <Matrix /> */}
+      {/* <Features /> */}
+      {/* <Testimonials /> */}
       {/* <Testimonials2 /> */}
-      <CTA />
-      <FAQ />
+      {/* <CTA /> */}
+      {/* <FAQ /> */}
     </Container>
   );
 }
