@@ -35,46 +35,14 @@ const generateTimeAgo = (index: number) => {
 };
 
 const tradingActivities: TradingActivity[] = [
-  {
-    pair: "BTC/USDT",
-    basePrice: 42500,
-    variance: 1000,
-  },
-  {
-    pair: "ETH/USDT",
-    basePrice: 2250,
-    variance: 100,
-  },
-  {
-    pair: "SOL/USDT",
-    basePrice: 98,
-    variance: 5,
-  },
-  {
-    pair: "AVAX/USDT",
-    basePrice: 35,
-    variance: 2,
-  },
-  {
-    pair: "MATIC/USDT",
-    basePrice: 0.85,
-    variance: 0.05,
-  },
-  {
-    pair: "DOT/USDT",
-    basePrice: 7.2,
-    variance: 0.3,
-  },
-  {
-    pair: "ADA/USDT",
-    basePrice: 0.52,
-    variance: 0.04,
-  },
-  {
-    pair: "LINK/USDT",
-    basePrice: 18.5,
-    variance: 1,
-  },
+  { pair: "BTC/USDT", basePrice: 42500, variance: 1000 },
+  { pair: "ETH/USDT", basePrice: 2250, variance: 100 },
+  { pair: "SOL/USDT", basePrice: 98, variance: 5 },
+  { pair: "AVAX/USDT", basePrice: 35, variance: 2 },
+  { pair: "MATIC/USDT", basePrice: 0.85, variance: 0.05 },
+  { pair: "DOT/USDT", basePrice: 7.2, variance: 0.3 },
+  { pair: "ADA/USDT", basePrice: 0.52, variance: 0.04 },
+  { pair: "LINK/USDT", basePrice: 18.5, variance: 1 },
 ];
 
 const actionTypes: ActionType[] = [
@@ -204,10 +172,10 @@ export function Features() {
           </p>
         </div>
 
-        {/* Toast container with fixed height */}
+        {/* Fixed-height container to prevent layout shifts */}
         <div className="relative h-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
-          {/* Absolutely positioned toast area allowing for interactive animations */}
-          <div className="absolute inset-0 flex flex-col items-center justify-end gap-4 p-4">
+          {/* Scrollable area for toast notifications */}
+          <div className="absolute inset-0 p-4 overflow-y-auto">
             <AnimatedList delay={2000}>
               {generateNotifications(50).map((item, idx) => (
                 <Notification {...item} key={idx} />
