@@ -204,9 +204,9 @@ export function Features() {
           </p>
         </div>
 
-        {/* Fixed toast container – it does not change size with new notifications */}
+        {/* Toast container with fixed height */}
         <div className="relative h-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
-          {/* Absolutely positioned toast area */}
+          {/* Absolutely positioned toast area allowing for interactive animations */}
           <div className="absolute inset-0 flex flex-col items-center justify-end gap-4 p-4">
             <AnimatedList delay={2000}>
               {generateNotifications(50).map((item, idx) => (

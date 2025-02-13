@@ -51,7 +51,15 @@ export function AnimatedListItem({ children }: { children: React.ReactNode }) {
   };
 
   return (
-    <motion.div {...animations} layout className="mx-auto w-full">
+    <motion.div
+      {...animations}
+      layout
+      drag="y"
+      dragConstraints={{ top: 0, bottom: 0 }}
+      dragElastic={0.3}
+      whileTap={{ scale: 0.95 }}
+      className="mx-auto w-full"
+    >
       {children}
     </motion.div>
   );
