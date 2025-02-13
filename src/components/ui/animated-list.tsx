@@ -27,19 +27,11 @@ export const AnimatedList = React.memo(
     );
 
     return (
-      <div 
-        className={`flex flex-col items-center gap-4 ${className}`}
-        style={{ color: 'inherit' }}
-      >
+      <div className={`flex flex-col items-center gap-4 ${className}`}>
         <AnimatePresence>
-          {itemsToShow.map((item, i) => (
+          {itemsToShow.map((item) => (
             <AnimatedListItem key={(item as ReactElement).key}>
-              <div className="flex items-center gap-2">
-                <span className="text-xs text-zinc-200">
-                  {i === 0 ? "now" : `${i}m ago`}
-                </span>
-                <div className="text-zinc-200">{item}</div>
-              </div>
+              {item}
             </AnimatedListItem>
           ))}
         </AnimatePresence>
