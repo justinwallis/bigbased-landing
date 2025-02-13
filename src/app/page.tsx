@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <Container>
       <div></div>
-      {/* <Hero /> */}
+      <Hero />
       <Matrix />
       {/* <Features /> */}
       {/* <Testimonials /> */}
