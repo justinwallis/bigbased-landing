@@ -24,12 +24,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
-        {/* <Script
+        <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           strategy="afterInteractive"
-        /> */}
+        />
       </head>
-      <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif]">
+      <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif] overflow-x-hidden">
         
           <div className="flex min-h-screen flex-col">
             <Navbar />
@@ -37,7 +37,7 @@ export default function RootLayout({
               {children}
             </main>
             <Footer />
-            {/* <CookieConsent /> */}
+            <CookieConsent />
           </div>
         
       </body>
