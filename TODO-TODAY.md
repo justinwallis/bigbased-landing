@@ -26,5 +26,7 @@ text logo `BigBased.AI`, then 5 links in the nav, theen a cta button. links alig
 - [x] features rabbit hole
 - [x] testimonials (be the first to break the matrix, just after andrew tate)
 - [x] cta
-- [ ] faq
-- [ ] footer
+- [x] faq
+- [x] footer
+issue: scroll on mobile is not working
+- [ ] fixed

@@ -5,33 +5,41 @@ import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/ui/cookie-consent";
 import Script from "next/script";
-import { GA_TRACKING_ID } from "@/lib/gtag";  // Updated import path
+import { GA_TRACKING_ID } from "@/lib/gtag";
 
 export const metadata: Metadata = {
   title: "BigBased.AI | Independent Wealth Through AI Trading",
   description: "Build independent wealth with our agentic crypto trading bot powered by advanced AI",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 5,
+    userScalable: true,
+  },
 };
 
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en" className="dark scroll-smooth">
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
           strategy="afterInteractive"
         />
       </head>
-      <body className="bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif]">
+      <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif] overflow-x-hidden">
         <TRPCReactProvider>
-          <Navbar />
-          <main className="min-h-screen pt-16">
-            {children}
-          </main>
-          <Footer />
-          <CookieConsent />
+          <div className="flex min-h-screen flex-col">
+            <Navbar />
+            <main className="flex-1 pt-16">
+              {children}
+            </main>
+            <Footer />
+            <CookieConsent />
+          </div>
         </TRPCReactProvider>
       </body>
     </html>
