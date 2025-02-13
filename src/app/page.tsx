@@ -17,7 +17,7 @@ export default function Home() {
       <Testimonials />
       {/* <Testimonials2 /> */}
       <CTA />
-      {/* <FAQ /> */}
+      <FAQ />
     </Container>
   );
 }
