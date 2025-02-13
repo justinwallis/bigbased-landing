@@ -12,7 +12,7 @@ export default function Home() {
     <Container>
       <div></div>
       {/* <Hero /> */}
-      {/* <Matrix /> */}
+      <Matrix />
       {/* <Features /> */}
       {/* <Testimonials /> */}
       {/* <Testimonials2 /> */}
