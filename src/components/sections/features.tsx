@@ -159,10 +159,10 @@ type NotificationProps = {
 
 const Notification = ({ name, description, icon, color, time }: NotificationProps) => {
   return (
-    <figure className="relative mx-auto w-full max-w-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur-sm transition-all duration-200 hover:scale-[102%] hover:border-zinc-700">
+    <figure className="relative mx-auto h-[88px] min-h-[88px] w-full max-w-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur-sm transition-all duration-200 hover:scale-[102%] hover:border-zinc-700">
       <div className="flex items-center gap-3">
         <div
-          className="flex h-10 w-10 items-center justify-center rounded-xl"
+          className="flex h-10 w-10 min-w-[40px] items-center justify-center rounded-xl"
           style={{ backgroundColor: color }}
         >
           <span className="text-lg">{icon}</span>
@@ -179,6 +179,7 @@ const Notification = ({ name, description, icon, color, time }: NotificationProp
     </figure>
   );
 };
+
 
 export function Features() {
   return (
