@@ -173,17 +173,16 @@ export function Features() {
         </div>
 
         {/* Fixed-height container to prevent layout shifts */}
-        <div className="relative h-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
+        <div className="relative mx-auto h-[400px] max-w-lg rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
           {/* Scrollable area for toast notifications */}
-          <div className="absolute inset-0 p-4 overflow-y-auto">
+          <div className="absolute inset-0 p-4 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900">
             <AnimatedList delay={2000}>
               {generateNotifications(50).map((item, idx) => (
                 <Notification {...item} key={idx} />
               ))}
             </AnimatedList>
           </div>
-        </div>
-      </div>
+        </div>      </div>
     </section>
   );
 }
