@@ -29,7 +29,7 @@ export default function RootLayout({
           strategy="afterInteractive"
         />
       </head>
-      <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif] overflow-x-hidden">
+      <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif]">
         
           <div className="flex min-h-screen flex-col">
             <Navbar />

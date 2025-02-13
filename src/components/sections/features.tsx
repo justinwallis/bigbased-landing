@@ -193,7 +193,7 @@ export function Features() {
           </p>
         </div>
         
-        <div className="relative h-[600px] overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
+        <div className="relative max-h-[80vh] overflow-y-auto rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
           <AnimatedList delay={2000}>
             {generateNotifications(50).map((item, idx) => (
               <Notification {...item} key={idx} />
