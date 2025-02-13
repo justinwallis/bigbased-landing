@@ -1,6 +1,5 @@
 import "@/styles/globals.css";
 import { type Metadata } from "next";
-import { TRPCReactProvider } from "@/trpc/react";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/ui/cookie-consent";
@@ -31,7 +30,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif] overflow-x-hidden">
-        <TRPCReactProvider>
+        
           <div className="flex min-h-screen flex-col">
             <Navbar />
             <main className="flex-1 pt-16">
@@ -40,7 +39,7 @@ export default function RootLayout({
             <Footer />
             <CookieConsent />
           </div>
-        </TRPCReactProvider>
+        
       </body>
     </html>
   );
