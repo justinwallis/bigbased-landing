@@ -5,7 +5,7 @@ import { CheckIcon } from "@radix-ui/react-icons";
 export function CTA() {
   return (
     <section className="relative w-full min-h-[500px] my-20" id="pricing">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pointer-events-none">
         <Waves
           lineColor="rgb(228 228 231)"
           backgroundColor="transparent"
