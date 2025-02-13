@@ -23,10 +23,10 @@ type ActionType = {
   description: (pair: string, price: string) => string;
 };
 
-const generateRandomPrice = (base: number, variance: number) => 
+const generateRandomPrice = (base: number, variance: number) =>
   (base + (Math.random() - 0.5) * variance).toFixed(2);
 
-const generateRandomPercent = () => 
+const generateRandomPercent = () =>
   (Math.random() * 5 * (Math.random() > 0.5 ? 1 : -1)).toFixed(2);
 
 const generateTimeAgo = (index: number) => {
@@ -94,7 +94,8 @@ const actionTypes: ActionType[] = [
     name: "Take Profit Hit",
     icon: "💰",
     color: "#1E86FF",
-    description: (pair: string, percent: string) => `${pair} +${Math.abs(Number(percent))}%`,
+    description: (pair: string, percent: string) =>
+      `${pair} +${Math.abs(Number(percent))}%`,
   },
   {
     name: "Stop Loss Triggered",
@@ -106,13 +107,17 @@ const actionTypes: ActionType[] = [
     name: "Leverage Adjusted",
     icon: "⚡",
     color: "#FFB800",
-    description: (pair: string) => `${pair} ${Math.floor(Math.random() * 15 + 5)}x → ${Math.floor(Math.random() * 10 + 1)}x`,
+    description: (pair: string) =>
+      `${pair} ${Math.floor(Math.random() * 15 + 5)}x → ${Math.floor(
+        Math.random() * 10 + 1,
+      )}x`,
   },
   {
     name: "Grid Bot Profit",
     icon: "🤖",
     color: "#00C9A7",
-    description: (pair: string) => `${pair} +${(Math.random() * 0.5).toFixed(3)} USDT`,
+    description: (pair: string) =>
+      `${pair} +${(Math.random() * 0.5).toFixed(3)} USDT`,
   },
   {
     name: "DCA Order Executed",
@@ -132,10 +137,10 @@ const generateNotifications = (count: number): Notification[] => {
   return Array.from({ length: count }, (_, i) => {
     const activityIndex = Math.floor(Math.random() * tradingActivities.length);
     const actionIndex = Math.floor(Math.random() * actionTypes.length);
-    
+
     const activity = tradingActivities[activityIndex]!;
     const action = actionTypes[actionIndex]!;
-    
+
     const price = generateRandomPrice(activity.basePrice, activity.variance);
     const percent = generateRandomPercent();
 
@@ -157,7 +162,13 @@ type NotificationProps = {
   time: string;
 };
 
-const Notification = ({ name, description, icon, color, time }: NotificationProps) => {
+const Notification = ({
+  name,
+  description,
+  icon,
+  color,
+  time,
+}: NotificationProps) => {
   return (
     <figure className="relative mx-auto h-[88px] min-h-[88px] w-full max-w-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-4 backdrop-blur-sm transition-all duration-200 hover:scale-[102%] hover:border-zinc-700">
       <div className="flex items-center gap-3">
@@ -180,7 +191,6 @@ const Notification = ({ name, description, icon, color, time }: NotificationProp
   );
 };
 
-
 export function Features() {
   return (
     <section className="py-24" id="features">
@@ -193,13 +203,17 @@ export function Features() {
             Watch our autonomous trading system execute strategies in real-time
           </p>
         </div>
-        
-        <div className="relative max-h-[80vh] overflow-y-auto rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
-          <AnimatedList delay={2000}>
-            {generateNotifications(50).map((item, idx) => (
-              <Notification {...item} key={idx} />
-            ))}
-          </AnimatedList>
+
+        {/* Fixed toast container – it does not change size with new notifications */}
+        <div className="relative h-[400px] rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
+          {/* Absolutely positioned toast area */}
+          <div className="absolute inset-0 flex flex-col items-center justify-end gap-4 p-4">
+            <AnimatedList delay={2000}>
+              {generateNotifications(50).map((item, idx) => (
+                <Notification {...item} key={idx} />
+              ))}
+            </AnimatedList>
+          </div>
         </div>
       </div>
     </section>
