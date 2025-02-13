@@ -3,13 +3,7 @@ import { useRef, useEffect } from "react"
 import { cn } from "@/lib/utils"
 
 interface WavesProps {
-  /**
-   * Color of the wave lines
-   */
   lineColor?: string
-  /**
-   * Background color of the container
-   */
   backgroundColor?: string
   waveSpeedX?: number
   waveSpeedY?: number
@@ -33,6 +27,7 @@ class Grad {
     return this.x * x + this.y * y
   }
 }
+
 class Noise {
   constructor(seed = 0) {
     this.grad3 = [
@@ -275,19 +270,23 @@ export function Waves({
       setSize()
       setLines()
     }
+
     function onMouseMove(e) {
       updateMouse(e.pageX, e.pageY)
     }
+
     function onTouchMove(e) {
-      e.preventDefault()
       const touch = e.touches[0]
-      updateMouse(touch.clientX, touch.clientY)
+      if (touch) {
+        updateMouse(touch.clientX, touch.clientY)
+      }
     }
+
     function updateMouse(x, y) {
       const mouse = mouseRef.current
-      const b = boundingRef.current
-      mouse.x = x - b.left
-      mouse.y = y - b.top + window.scrollY
+      const rect = container.getBoundingClientRect()
+      mouse.x = x - rect.left
+      mouse.y = y - rect.top
       if (!mouse.set) {
         mouse.sx = mouse.x
         mouse.sy = mouse.y
@@ -300,9 +299,10 @@ export function Waves({
     setSize()
     setLines()
     requestAnimationFrame(tick)
+
     window.addEventListener("resize", onResize)
-    window.addEventListener("mousemove", onMouseMove)
-    window.addEventListener("touchmove", onTouchMove, { passive: false })
+    window.addEventListener("mousemove", onMouseMove, { passive: true })
+    window.addEventListener("touchmove", onTouchMove, { passive: true })
 
     return () => {
       window.removeEventListener("resize", onResize)
@@ -328,24 +328,30 @@ export function Waves({
       ref={containerRef}
       style={{
         backgroundColor,
+        touchAction: 'auto',
+        pointerEvents: 'none'
       }}
       className={cn(
         "absolute top-0 left-0 w-full h-full overflow-hidden",
-        className,
+        className
       )}
     >
       <div
         className={cn(
           "absolute top-0 left-0 rounded-full",
-          "w-2 h-2 bg-foreground/10",
+          "w-2 h-2 bg-foreground/10"
         )}
         style={{
-          transform:
-            "translate3d(calc(var(--x) - 50%), calc(var(--y) - 50%), 0)",
+          transform: "translate3d(calc(var(--x) - 50%), calc(var(--y) - 50%), 0)",
           willChange: "transform",
+          pointerEvents: 'none'
         }}
       />
-      <canvas ref={canvasRef} className="block w-full h-full" />
+      <canvas 
+        ref={canvasRef} 
+        className="block w-full h-full" 
+        style={{ pointerEvents: 'none' }}
+      />
     </div>
   )
 }
