@@ -39,7 +39,7 @@ issue: scroll on mobile is not working
 - [ ] Link to Whitepaper (will have a link to BigBased.AI doc within it): https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit?usp=drive_link
 - [ ] Should pricing section have multiple selections, other than just Enterprise solution?
 - [ ] Testimonial section: https://21st.dev/serafimcloud/testimonials-with-marquee/default
-- [ ] About section, new page: Introduces Us, and our Wider vision for BB.AI - https://21st.dev/aceternity/animated-testimonials/default
+- [ ] About section, new page: Introduces Us, and our Wider vision for BB.AI - This might look good if it brings up a text box when clicked on: https://21st.dev/aceternity/animated-tooltip/default  or smth like this https://21st.dev/aceternity/animated-testimonials/default
 - [ ] Cool Button Border (Possibly): https://21st.dev/DavidHDev/star-border/default
 - [ ] Can the Login / Register be a Popout thing? wld be slick - https://21st.dev/aceternity/navbar-menu/default
 - [ ] Would Typewriter effect be too much? might look good somewhere: https://21st.dev/danielpetho/typewriter/default
