@@ -34,7 +34,7 @@ issue: scroll on mobile is not working
 - [ ] Add the ipad scroll animation - Would this retrogrid thing look good behind the ipad (slower though, would mach the grey theme, maybe there is something better tho): https://21st.dev/magicui/retro-grid/default
 - [ ] Ribbon movement. unless that is too heavy. can it be flattened from svg to flv or smth after it moves? if not, all good
 - [ ] Center the BB icon inside the ribbon
-- [ ] Tiny list of Stack used? Or a Marrquee myb? https://21st.dev/lukacho/marquee/default
+- [ ] Tiny list of Stack used? Or a Marrquee myb? https://21st.dev/haydenbleasel/marquee/default or maybe this? https://21st.dev/lukacho/marquee/default
 - [ ] Should there be a Marquee of the other AI projects too that may be in this proj eventually.
 - [ ] Link to Whitepaper (will have a link to BigBased.AI doc within it): https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit?usp=drive_link
 - [ ] Should pricing section have multiple selections, other than just Enterprise solution?
