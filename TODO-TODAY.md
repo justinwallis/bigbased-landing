@@ -48,7 +48,7 @@ Suggestions:
 - [ ] Would Typewriter effect be too much? might look good somewhere: https://21st.dev/danielpetho/typewriter/default
 - [ ] What about a blur fade somewhere? maybe not, just an idea.  Or instead of tyypewrier myb: https://21st.dev/magicui/blur-fade/default
 - [ ] Might be chill to add this to a card somewhere. myb not tho.. (Slower and maybe grey/white, instead of color if possible): https://21st.dev/jatin-yadav05/glowing-card/default
-- [ ] Should we build the BigBased.AI on BigBased.app?  Could also be reserved for smth else tho.
+- [ ] Should we build the AI on BigBased.app? Prob just keep on the .AI.    .app Could be reserved for smth else tho.
 
 BigBased.Tech - Or should this site be BigBased.io
 - [ ] Quick Link to BigBased.AI, BigBased.com, BigBased.Dev. Some dope background animation also prob?  Maybe like a Site preview box/card since we only have 1 logo at this point
