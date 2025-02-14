@@ -50,7 +50,7 @@ Suggestions:
 - [ ] Might be chill to add this to a card somewhere. myb not tho.. (Slower and maybe grey/white, instead of color if possible): https://21st.dev/jatin-yadav05/glowing-card/default
 - [ ] Should we build the BigBased.AI on BigBased.app?  Could also be reserved for smth else tho.
 
-BigBased.IO ToDo
+BigBased.Tech - Or should this site be BigBased.io
 - [ ] Quick Link to BigBased.AI, BigBased.com, BigBased.Dev. Some dope background animation also prob?  Maybe like a Site preview box/card since we only have 1 logo at this point
 
 BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)      
