@@ -48,3 +48,11 @@ Suggestions:
 - [ ] Would Typewriter effect be too much? might look good somewhere: https://21st.dev/danielpetho/typewriter/default
 - [ ] What about a blur fade somewhere? maybe not, just an idea.  Or instead of tyypewrier myb: https://21st.dev/magicui/blur-fade/default
 - [ ] Might be chill to add this to a card somewhere. myb not tho.. (Slower and maybe grey/white, instead of color if possible): https://21st.dev/jatin-yadav05/glowing-card/default
+
+BigBased.IO ToDo
+- [ ] Quick Link to BigBased.AI, BigBased.com, BigBased.Dev. Some dope background animation also prob?  Maybe like a Site preview box/card since we only have 1 logo at this point
+
+BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)      
+- [ ] Link to Based Hackathon website. We could just do a quick page on BasedHackathon.com that just points to the discord for now)
+- [ ] Link to Based College Website / App (discord for now, until we get discord clone made, link in main business doc)
+- [ ] 
