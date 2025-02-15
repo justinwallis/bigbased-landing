@@ -34,7 +34,6 @@ issue: scroll on mobile is not working
 Suggestions: 
 
 - [ ] link to pitch deck or a page where it's embedded mayb: https://docs.google.com/presentation/d/1ikmUH3JYOl4W9yal9wc8jdh3ccKUboAs/edit?usp=drive_link&ouid=107353373170500092004&rtpof=true&sd=true
-- [ ] Add the ipad scroll animation - Would this retrogrid thing look good behind the ipad (slower though, would mach the grey theme, maybe there is something better tho): https://21st.dev/magicui/retro-grid/default
 - [ ] Ribbon movement. unless that is too heavy. can it be flattened from svg to flv or smth after it moves? if not, all good
 - [ ] Center the BB icon inside the ribbon
 - [ ] Tiny list of Stack used? Carousel or a Marrquee myb? https://21st.dev/cult-ui/logo-carousel/default https://21st.dev/haydenbleasel/marquee/default or maybe this? https://21st.dev/lukacho/marquee/default
@@ -48,7 +47,7 @@ Suggestions:
 - [ ] Would Typewriter effect be too much? might look good somewhere: https://21st.dev/danielpetho/typewriter/default
 - [ ] What about a blur fade somewhere? maybe not, just an idea.  Or instead of tyypewrier myb: https://21st.dev/magicui/blur-fade/default
 - [ ] Might be chill to add this to a card somewhere. myb not tho.. (Slower and maybe grey/white, instead of color if possible): https://21st.dev/jatin-yadav05/glowing-card/default
-- [ ] Should we build the AI on BigBased.app? Prob just keep on the .AI.    .app Could be reserved for smth else tho.
+- [ ] Should we build the AI on BigBased.app? Prob just keep on the .AI. (app.bigbased.ai)    .app Could be reserved for smth else tho.
 
 BigBased.Tech - Or should this site be BigBased.io
 - [ ] Quick Link to BigBased.AI, BigBased.com, BigBased.Dev. Some dope background animation also prob?  Maybe like a Site preview box/card since we only have 1 logo at this point
@@ -59,7 +58,9 @@ BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)
 - [ ] I need to Make the Discord, then update the link on the site
 - [ ] Connect Site with the stripe
 - [ ] Video Example of AI?
-- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. distracting
+- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
+- [ ] Construct TOS
+- [ ] 
 
 Other Ideas:
 - [ ] What do we do with BasedTicker.com?
