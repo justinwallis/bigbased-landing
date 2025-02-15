@@ -60,6 +60,7 @@ BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)
 - [ ] Video Example of AI?
 - [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
 - [ ] Construct TOS
+- [ ] Install Favicons: https://drive.google.com/drive/folders/1toLwxlhi-_9ZPNcwlY1pECz_oo7HY-Q9?usp=drive_link
 - [ ] 
 
 Other Ideas:
