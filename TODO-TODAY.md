@@ -3,23 +3,25 @@
 What is Big Based AI?
 
 Big Based AI is a crypto trading bot with agentic capabilities.
-Today solution consists of 3 parts:
+Today, the solution consists of three core parts:
 
-a) Trading bot,
-b) Web app to interact with the bot,
-c) ML middleware to interact with the bot.
+a) Trading bot
+b) Web app to interact with the bot
+c) ML middleware to enhance bot interactions
 
-Big Based AI mission is to help people build independent wealth.
-Big Based AI believes in God, Truth, hard work, and freedom.
+Big Based AI’s mission is to help people build independent wealth.
+We believe in God, Truth, Hard Work, and Freedom.
 
 # TODO
 
-Build layout, containarized - DARK only website that use zinc as the only color palette.
-Utilize Neue Haas Grotesk Display Pro Font. With helvetica as a fallback.
+**Site Structure**
+
+- [x] Build layout – containerized dark-only website using Zinc color palette
+Utilize Neue Haas Grotesk Display Pro Font (https://fonts.adobe.com/fonts/neue-haas-grotesk). With inter (https://fonts.google.com/specimen/Inter) as a fallback.
 - [x] layout (zinc)
-text logo `BigBased.AI`, then 5 links in the nav, theen a cta button. links aligned to the logo. cta button alone to the right. Almost white zinc-100 or similar.
+- [x] text logo `BigBased.AI`, then 5 links in the nav, theen a cta button. links aligned to the logo. cta button alone to the right. Almost white zinc-100 or similar.
 - [x] nav
-2 columns: 1st (small brew text, then h1, then p. 2 buttons.) 2nd (svg image, the same color as nav)
+- [x] 2 columns: 1st (small brew text, then h1, then p. 2 buttons.) 2nd (svg image, the same color as nav)
 - [x] hero
 //WIP
 - [x] matrix problem
