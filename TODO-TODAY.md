@@ -15,7 +15,6 @@ We believe in God, Truth, Hard Work, and Freedom.
 # TODO
 
 **Site Structure**
-
 - [x] Build layout – containerized dark-only website using Zinc color palette
 Utilize Neue Haas Grotesk Display Pro Font (https://fonts.adobe.com/fonts/neue-haas-grotesk). With inter (https://fonts.google.com/specimen/Inter) as a fallback.
 - [x] layout (zinc)
@@ -26,7 +25,6 @@ Utilize Neue Haas Grotesk Display Pro Font (https://fonts.adobe.com/fonts/neue-h
 - [x] 2nd column: SVG image in the same color as the nav
 
 **Core Components**
-
 - [x] Matrix Problem Section
 - [x] Features (Rabbit Hole)
 - [x] Testimonials – "Be the first to break the Matrix—just after Andrew Tate"
@@ -36,8 +34,7 @@ Utilize Neue Haas Grotesk Display Pro Font (https://fonts.adobe.com/fonts/neue-h
 issue: scroll on mobile is not working
 - [x] fixed
 
-Suggestions: 
-
+**Website ToDo**
 - [ ] Link to Pitch Deck: Pitch Deck (https://docs.google.com/presentation/d/1ikmUH3JYOl4W9yal9wc8jdh3ccKUboAs/edit)
 - [ ] Ribbon Animation – Flatten to SVG or FLV if too resource-heavy
 - [ ] Center the BB icon inside the ribbon
@@ -52,17 +49,17 @@ Suggestions:
       - Example: Animated Tooltip (https://21st.dev/aceternity/animated-tooltip/default)
       - Example: Animated Testimonials (https://21st.dev/aceternity/animated-testimonials/default)
 
-**Design Ideas**
-      
-- [ ] Cool Button Border (Possibly): https://21st.dev/DavidHDev/star-border/default
-- [ ] Can the Login / Register be a Popout thing? wld be slick - https://21st.dev/aceternity/navbar-menu/default
-- [ ] Would Typewriter effect be too much? might look good somewhere: https://21st.dev/danielpetho/typewriter/default
-- [ ] What about a blur fade somewhere? maybe not, just an idea.  Or instead of tyypewrier myb: https://21st.dev/magicui/blur-fade/default
-- [ ] Might be chill to add this to a card somewhere. myb not tho.. (Slower and maybe grey/white, instead of color if possible): https://21st.dev/jatin-yadav05/glowing-card/default
-- [ ] Should we build the AI on BigBased.app? Prob just keep on the .AI. (app.bigbased.ai)    .app Could be reserved for smth else tho.
+**Design Ideas** 
+- [ ] Cool Button Borders: Star Border Button (https://21st.dev/DavidHDev/star-border/default)
+- [ ] Pop-Out Login/Register: Navbar with Popout (?)
+- [ ] Typewriter Effect – Could add to hero or CTA section: Typewriter Effect (https://21st.dev/danielpetho/typewriter/default)
+- [ ] Blur-Fade Transition – Instead of typewriter effect: Blur Fade (https://21st.dev/magicui/blur-fade/default)
+- [ ] Glowing Card Effect (subtle, slower, grey/white version): Glowing Card (https://21st.dev/jatin-yadav05/glowing-card/default)
 
-BigBased.Tech - Or should this site be BigBased.io
-- [ ] Quick Link to BigBased.AI, BigBased.com, BigBased.Dev. Some dope background animation also prob?  Maybe like a Site preview box/card since we only have 1 logo at this point
+**Site Domain & Integration**
+BigBased.Tech or BigBased.io?
+- [ ] Quick links to BigBased.AI, BigBased.com, BigBased.Dev
+- [ ] Add background animation or preview box for each link
 
 BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)      
 - [ ] Link to Based Hackathon website. We could just do a quick page on BasedHackathon.com that just points to the discord for now)
