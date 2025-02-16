@@ -33,8 +33,11 @@ Utilize Neue Haas Grotesk Display Pro Font (https://fonts.adobe.com/fonts/neue-h
 - [x] Footer
 issue: scroll on mobile is not working
 - [x] fixed
-
-**Website ToDo**
+- [ ] Stripe Integration – For subscription and payment system
+- [ ] AI Video Example
+- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
+- [ ] Terms of Service (TOS) – Construct and add
+- [ ] Install Favicons: Favicon Files (https://drive.google.com/drive/folders/1toLwxlhi-_9ZPNcwlY1pECz_oo7HY-Q9?usp=drive_link)
 - [ ] Link to Pitch Deck: Pitch Deck (https://docs.google.com/presentation/d/1ikmUH3JYOl4W9yal9wc8jdh3ccKUboAs/edit)
 - [ ] Ribbon Animation – Flatten to SVG or FLV if too resource-heavy
 - [ ] Center the BB icon inside the ribbon
@@ -61,16 +64,10 @@ BigBased.Tech or BigBased.io?
 - [ ] Quick links to BigBased.AI, BigBased.com, BigBased.Dev
 - [ ] Add background animation or preview box for each link
 
-BigBased.Dev  ToDo (After we are finished w BB.AI, and fully locked in)      
-- [ ] Link to Based Hackathon website. We could just do a quick page on BasedHackathon.com that just points to the discord for now)
-- [ ] Link to Based College Website / App (discord for now, until we get discord clone made, link in main business doc)
-- [ ] I need to Make the Discord, then update the link on the site
-- [ ] Connect Site with the stripe
-- [ ] Video Example of AI?
-- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
-- [ ] Construct TOS
-- [ ] Install Favicons: https://drive.google.com/drive/folders/1toLwxlhi-_9ZPNcwlY1pECz_oo7HY-Q9?usp=drive_link
-- [ ] 
+**BigBased.Dev TODOs (Post BigBased.AI)  **
+- [ ] Based Hackathon Page – Quick page on BasedHackathon.com linking to Discord
+- [ ] Based College Integration – Link to Discord until Discord clone is ready
 
-Other Ideas:
+**Other Ideas:**
 - [ ] What do we do with BasedTicker.com?
+- [ ] Future app.bigbased.ai – Reserved for additional functionality
