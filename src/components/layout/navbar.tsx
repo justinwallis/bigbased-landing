@@ -37,9 +37,11 @@ export function Navbar() {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="hidden md:block rounded-full bg-zinc-100 px-4 py-2 font-medium text-zinc-900 transition-all duration-300 hover:bg-zinc-600 border-2 border-zinc-900 hover:border-zinc-800">
-            Get Started
-          </button>
+         <a href="https://bigbased.ai/chat"  rel="noopener noreferrer">
+  <button className="hidden md:block rounded-full bg-zinc-100 px-4 py-2 font-medium text-zinc-900 transition-all duration-300 hover:bg-zinc-600 border-2 border-zinc-900 hover:border-zinc-800">
+    Get Started
+  </button>
+</a>
 
           <button 
             onClick={() => setIsMenuOpen(!isMenuOpen)}
