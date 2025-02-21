@@ -35,17 +35,18 @@ issue: scroll on mobile is not working
 - [x] fixed
 - [ ] Stripe Integration – For subscription and payment system
 - [ ] AI Video Example
-- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
 - [ ] Terms of Service (TOS) – Construct and add
+- [ ] Light grey background gets loaded first, before darker grey, distracting. way to fix?
+- [ ] TopLeft logo is the last thing to load, and has a white box in it's place before it loads. Dark grey background gets loaded a little late. distracting
 - [ ] Install Favicons: Favicon Files (https://drive.google.com/drive/folders/1toLwxlhi-_9ZPNcwlY1pECz_oo7HY-Q9?usp=drive_link)
 - [ ] Link to Pitch Deck: Pitch Deck (https://docs.google.com/presentation/d/1ikmUH3JYOl4W9yal9wc8jdh3ccKUboAs/edit)
-- [ ] Ribbon Animation – Flatten to SVG or FLV if too resource-heavy
+- [ ] Ribbon, possible to make into Animation, or slowly spin even, would that look good?
 - [ ] Center the BB icon inside the ribbon
 - [ ] Add Logo Carousel or Marquee for Stack:
        - Example: Logo Carousel (https://21st.dev/cult-ui/logo-carousel/default)
        - Example: Marquee (https://21st.dev/lukacho/marquee/default)
 - [ ] Marquee for Other AI Projects – Showcase related projects in the future
-- [ ] Link to Whitepaper: BigBased.AI Whitepaper (https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit)
+- [ ] Link to Whitepaper: BigBased Whitepaper (https://BasedPitch.com)
 - [ ] Pricing Section – Multiple tiers, not just Enterprise
 - [ ] Testimonial Section with Marquee: Testimonials Example (https://21st.dev/serafimcloud/testimonials-with-marquee/default)
 - [ ] About Section – New page with tooltip animation:
@@ -54,7 +55,6 @@ issue: scroll on mobile is not working
 
 **Design Ideas** 
 - [ ] Cool Button Borders: Star Border Button (https://21st.dev/DavidHDev/star-border/default)
-- [ ] Pop-Out Login/Register: Navbar with Popout (?)
 - [ ] Typewriter Effect – Could add to hero or CTA section: Typewriter Effect (https://21st.dev/danielpetho/typewriter/default)
 - [ ] Blur-Fade Transition – Instead of typewriter effect: Blur Fade (https://21st.dev/magicui/blur-fade/default)
 - [ ] Glowing Card Effect (subtle, slower, grey/white version): Glowing Card (https://21st.dev/jatin-yadav05/glowing-card/default)
