@@ -39,7 +39,7 @@ export function Navbar() {
               FAQ
             </a>
             <a
-              href="https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit?tab=t.0"
+              href="https://basedpitch.com/"
               target="_blank"
               rel="noopener"
               className="text-zinc-100 hover:text-zinc-300"
@@ -114,7 +114,7 @@ export function Navbar() {
                 FAQ
               </a>
               <a
-                href="https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit?tab=t.0"
+                href="https://basedpitch.com/"
                 target="_blank"
                 rel="noopener"
                 className="text-zinc-100 hover:text-zinc-300"
