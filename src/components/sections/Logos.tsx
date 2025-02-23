@@ -24,7 +24,7 @@ const Logos = {
   ),
   nextjs: () => (
     <svg
-      className={"fill-primary h-[20px]"}
+      className={"h-[20px] fill-primary"}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 394 79"
     >
@@ -51,7 +51,7 @@ const Logos = {
       <svg
         viewBox="0 0 14 21"
         role="presentation"
-        className={"fill-primary h-[30px]"}
+        className={"h-[30px] fill-primary"}
       >
         <path d="M0 0h14v7H7zm0 7h7l7 7H7v7l-7-7z" fill="currentColor"></path>
       </svg>
@@ -93,7 +93,7 @@ export function MarqueeDemo() {
       {arr.map((Logo, index) => (
         <div
           key={index}
-          className="relative mx-[4rem] mt-14 flex h-full w-fit items-center justify-start sm:mt-0"
+          className="relative mx-[4rem] mt-14 flex h-full w-fit items-center justify-start sm:mb-12 sm:mt-0"
         >
           <Logo />
         </div>

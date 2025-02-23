@@ -20,8 +20,8 @@ export function Hero() {
           </p>
         </div>
 
-        <div className="flex flex-col justify-center gap-4 sm:flex-row md:justify-start">
-          <button className="rounded-md border-2 border-zinc-200 bg-zinc-200 px-6 py-3 font-medium text-zinc-900 transition-all duration-300 hover:border-zinc-800 hover:bg-zinc-400">
+        <div className="flex flex-wrap items-center justify-center gap-4 sm:flex-row md:justify-start">
+          <button className="w-36 rounded-md border-2 border-zinc-200 bg-zinc-200 px-6 py-3 font-medium text-zinc-900 transition-all duration-300 hover:border-zinc-800 hover:bg-zinc-400 sm:w-max">
             Start Trading
           </button>
 
@@ -61,7 +61,7 @@ export function Hero() {
             priority
           />
           <Image
-            src="/icon.png"
+            src="/white-logo.png"
             alt="BigBased AI Icon"
             width={80}
             height={80}
