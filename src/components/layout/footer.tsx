@@ -4,18 +4,38 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex flex-col items-center gap-8">
           <div className="flex items-center gap-8">
-            <div className="flex items-center gap-8">
-              <a href="#features" className="text-sm text-zinc-400 hover:text-zinc-300">
+            <div className="flex flex-wrap items-center justify-center gap-8">
+              <a
+                href="#features"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Features
               </a>
-              <a href="#testimonials" className="text-sm text-zinc-400 hover:text-zinc-300">
+              <a
+                href="#testimonials"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Testimonials
               </a>
-              <a href="#pricing" className="text-sm text-zinc-400 hover:text-zinc-300">
+              <a
+                href="#pricing"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Pricing
               </a>
-              <a href="#faq" className="text-sm text-zinc-400 hover:text-zinc-300">
+              <a
+                href="#faq"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 FAQ
+              </a>
+              <a
+                href="https://docs.google.com/document/d/16ZAiarRHfpjEjizYVGBBgKTfLrECp-tm0myLcGCQ71Q/edit?tab=t.0"
+                target="_blank"
+                rel="noopener"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
+                WhitePaper
               </a>
             </div>
           </div>
@@ -67,7 +87,8 @@ export function Footer() {
 
           <div className="text-center text-sm text-zinc-400">
             <p>
-              © {new Date().getFullYear()} BigBased.AI · God · Truth · Hard Work · Freedom
+              © {new Date().getFullYear()} BigBased.AI · God · Truth · Hard
+              Work · Freedom
             </p>
           </div>
         </div>
