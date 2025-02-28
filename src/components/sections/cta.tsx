@@ -48,7 +48,7 @@ export function CTA() {
 
   return (
     <>
-      <section className="w-full scroll-mt-20" id="pricing">
+      <section className="w-full scroll-mt-28 sm:scroll-mt-20" id="pricing">
         <h2 className="mt-10 text-center text-3xl font-bold text-zinc-100 sm:mt-0 sm:text-4xl">
           Pricing
         </h2>

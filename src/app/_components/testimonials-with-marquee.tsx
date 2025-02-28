@@ -23,7 +23,7 @@ export function TestimonialsSection({
       id="testimonials"
       className={cn(
         "text-foreground",
-        "px-0 py-12 sm:py-24 md:py-32",
+        "scroll-mt-24 px-0 py-12 sm:scroll-mt-0 sm:py-24 md:py-32",
         className,
       )}
     >

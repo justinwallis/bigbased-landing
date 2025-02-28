@@ -5,6 +5,7 @@ import { Footer } from "@/components/layout/footer";
 import { CookieConsent } from "@/components/ui/cookie-consent";
 import Script from "next/script";
 import { GA_TRACKING_ID } from "@/lib/gtag";
+import { Toaster } from "sonner";
 
 export const metadata: Metadata = {
   title: "BigBased.AI | Independent Wealth Through AI Trading",
@@ -42,6 +43,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-screen overflow-x-hidden bg-zinc-950 font-['Neue_Haas_Grotesk_Display_Pro',helvetica,sans-serif]">
+        <Toaster position="top-right" richColors />
         <div className="flex min-h-screen flex-col">
           <Navbar />
           <main className="flex-1 pt-16">{children}</main>

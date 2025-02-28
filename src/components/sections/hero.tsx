@@ -1,9 +1,10 @@
 import { Button } from "@/app/_components/Button";
+import { SparklesText } from "@/app/_components/sparkles-text";
 import Image from "next/image";
 
 export function Hero() {
   return (
-    <section className="flex min-h-[calc(100vh-4rem)] flex-col-reverse items-center gap-8 md:grid md:grid-cols-2 md:gap-0">
+    <section className="flex min-h-[calc(100vh-9rem)] flex-col-reverse items-center gap-8 md:grid md:grid-cols-2 md:gap-0">
       <div className="space-y-6 text-center md:text-left">
         <div className="space-y-2">
           <p className="text-sm font-medium uppercase tracking-wider text-zinc-400">
@@ -51,7 +52,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto flex w-full max-w-[400px] items-center justify-center md:max-w-full">
-        <div className="relative flex aspect-square w-full max-w-[600px] items-center justify-center">
+        <div className="relative mt-14 flex aspect-square w-full max-w-[600px] items-center justify-center sm:mt-0">
           <Image
             src="/ribbon.svg"
             alt="BigBased AI Ribbon"
@@ -60,14 +61,28 @@ export function Hero() {
             className="absolute inset-0 m-auto"
             priority
           />
-          <Image
+          <div className="absolute left-[36%] top-1/2 m-auto -translate-y-1/2 sm:left-[35%] lg:left-[40%]">
+            <SparklesText
+              text={
+                <Image
+                  src="/white-logo.png"
+                  alt="BigBased AI Icon"
+                  width={80}
+                  height={80}
+                  className=""
+                  priority
+                />
+              }
+            ></SparklesText>
+          </div>
+          {/* <Image
             src="/white-logo.png"
             alt="BigBased AI Icon"
             width={80}
             height={80}
             className="absolute left-[36%] top-1/2 m-auto -translate-y-1/2 sm:left-[35%] lg:left-[40%]"
             priority
-          />
+          /> */}
         </div>
       </div>
     </section>
