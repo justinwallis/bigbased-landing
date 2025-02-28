@@ -12,7 +12,7 @@ const DotPattern = ({
   cr = 0.5,
 }) => {
   const id = useId();
-  
+
   return (
     <svg
       aria-hidden="true"
@@ -37,19 +37,21 @@ const DotPattern = ({
 
 export function Matrix() {
   return (
-    <section className="pt-8 pb-24">
-      <div className="relative mx-auto max-w-7xl px-6">
+    <section className="scroll-mt-24 pb-10 pt-8 sm:pb-24" id="features">
+      <div className="relative mx-auto max-w-7xl md:px-6">
         <div className="relative border border-zinc-800">
           <DotPattern width={5} height={5} />
-          
+
           <div className="absolute -left-1.5 -top-1.5 h-3 w-3 bg-zinc-100" />
           <div className="absolute -bottom-1.5 -left-1.5 h-3 w-3 bg-zinc-100" />
           <div className="absolute -right-1.5 -top-1.5 h-3 w-3 bg-zinc-100" />
           <div className="absolute -bottom-1.5 -right-1.5 h-3 w-3 bg-zinc-100" />
 
-          <div className="relative z-20 grid grid-cols-2 gap-4 sm:gap-8 md:gap-12 p-4 sm:p-8 md:p-12">
+          <div className="relative z-20 grid grid-cols-1 gap-4 p-4 sm:gap-8 sm:p-8 md:grid-cols-2 md:gap-12 md:p-12">
             <div className="space-y-6">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-zinc-100">Traditional Trading</h2>
+              <h2 className="text-2xl font-bold text-zinc-100 md:text-3xl lg:text-4xl">
+                Traditional Trading
+              </h2>
               <ul className="space-y-4 text-zinc-400">
                 <li>• Emotional Decision Making</li>
                 <li>• Limited Trading Hours</li>
@@ -61,7 +63,9 @@ export function Matrix() {
             </div>
 
             <div className="space-y-6">
-              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-zinc-100">BigBased.AI Trading</h2>
+              <h2 className="text-2xl font-bold text-zinc-100 md:text-3xl lg:text-4xl">
+                BigBased.AI Trading
+              </h2>
               <ul className="space-y-4 text-zinc-400">
                 <li>• Data-Driven Decisions</li>
                 <li>• 24/7 Market Monitoring</li>
@@ -75,7 +79,10 @@ export function Matrix() {
 
           <div className="relative z-20 border-t border-zinc-800 p-8 text-center">
             <p className="text-lg text-zinc-100">
-              Built on the foundations of <span className="font-bold">God, Truth, Hard Work, and Freedom</span>
+              Built on the foundations of{" "}
+              <span className="font-bold">
+                God, Truth, Hard Work, and Freedom
+              </span>
             </p>
           </div>
         </div>

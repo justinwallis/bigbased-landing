@@ -159,30 +159,33 @@ const Notification = ({
   );
 };
 
-export function Features() {
+export function About() {
   return (
-    <section className="py-24" id="features">
-      <div className="mx-auto max-w-7xl px-6">
-        <div className="mb-12 text-center">
-          <h2 className="text-3xl font-bold text-zinc-100 sm:text-4xl">
-            AI Trading in Action
+    <section className="scroll-mt-20 pb-16 pt-16 sm:py-24" id="about">
+      <div className="mx-auto flex max-w-7xl flex-col items-center md:flex-row md:px-6">
+        <div className="mb-12 w-full text-center md:w-1/2 md:text-left">
+          <h2 className="text-3xl font-bold text-zinc-100 md:text-4xl">
+            About Big Based AI
           </h2>
-          <p className="mt-4 text-lg text-zinc-400">
-            Watch our autonomous trading system execute strategies in real-time
+          <p className="mt-4 w-full text-lg text-zinc-400 md:w-10/12">
+            Watch as our advanced autonomous trading system seamlessly executes
+            complex strategies in real-time, leveraging cutting-edge algorithms
+            and data analysis to make informed decisions on your behalf. With
+            the ability to adapt to market conditions.
           </p>
         </div>
-
         {/* Fixed-height container to prevent layout shifts */}
-        <div className="relative mx-auto h-[400px] max-w-lg rounded-xl border border-zinc-800 bg-zinc-900/50 p-6 overflow-hidden">
+        <div className="relative mx-auto h-[400px] w-full max-w-lg overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/50 p-6">
           {/* Scrollable area for toast notifications */}
-          <div className="absolute inset-0 p-4 overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-700 scrollbar-track-zinc-900">
+          <div className="absolute inset-0 overflow-y-auto p-4 scrollbar-thin scrollbar-track-zinc-900 scrollbar-thumb-zinc-700">
             <AnimatedList delay={2000}>
               {generateNotifications(50).map((item, idx) => (
                 <Notification {...item} key={idx} />
               ))}
             </AnimatedList>
           </div>
-        </div>      </div>
+        </div>
+      </div>
     </section>
   );
 }

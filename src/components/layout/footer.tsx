@@ -1,21 +1,55 @@
+import Link from "next/link";
+
 export function Footer() {
   return (
     <footer className="border-t border-zinc-800 bg-zinc-900">
       <div className="mx-auto max-w-7xl px-6 py-12">
         <div className="flex flex-col items-center gap-8">
           <div className="flex items-center gap-8">
-            <div className="flex items-center gap-8">
-              <a href="#features" className="text-sm text-zinc-400 hover:text-zinc-300">
+            <div className="flex flex-wrap items-center justify-center gap-8">
+              <Link
+                href="/#about"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
+                About
+              </Link>
+              <Link
+                href="/#features"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Features
-              </a>
-              <a href="#testimonials" className="text-sm text-zinc-400 hover:text-zinc-300">
+              </Link>
+              <Link
+                href="/#testimonials"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Testimonials
-              </a>
-              <a href="#pricing" className="text-sm text-zinc-400 hover:text-zinc-300">
+              </Link>
+              <Link
+                href="/#pricing"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 Pricing
-              </a>
-              <a href="#faq" className="text-sm text-zinc-400 hover:text-zinc-300">
+              </Link>
+              <Link
+                href="/#faq"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
                 FAQ
+              </Link>
+              <Link
+                href="/#contact"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
+                Contact
+              </Link>
+              <a
+                href="https://basedpitch.com/"
+                target="_blank"
+                rel="noopener"
+                className="text-sm text-zinc-400 hover:text-zinc-300"
+              >
+                WhitePaper
               </a>
             </div>
           </div>
@@ -64,10 +98,37 @@ export function Footer() {
               </svg>
             </a>
           </div>
+          <div className="flex flex-wrap justify-center gap-4 sm:gap-8">
+            <Link
+              href={"/terms-of-service"}
+              className="text-sm text-zinc-400 hover:text-zinc-300"
+            >
+              Terms of Use
+            </Link>
+            <Link
+              href={"/privacy-policy"}
+              className="text-sm text-zinc-400 hover:text-zinc-300"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              href={"/security"}
+              className="text-sm text-zinc-400 hover:text-zinc-300"
+            >
+              Security
+            </Link>
+            <Link
+              href={"/other-policy"}
+              className="text-sm text-zinc-400 hover:text-zinc-300"
+            >
+              Other Policies
+            </Link>
+          </div>
 
           <div className="text-center text-sm text-zinc-400">
             <p>
-              © {new Date().getFullYear()} BigBased.AI · God · Truth · Hard Work · Freedom
+              © {new Date().getFullYear()} BigBased.AI · God · Truth · Hard
+              Work · Freedom
             </p>
           </div>
         </div>

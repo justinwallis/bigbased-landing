@@ -1,0 +1,28 @@
+{
+  "name": "Big Based AI",
+  "short_name": "bigbased",
+  "icons": [
+    {
+      "src": "/public/favicon.ico",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/public/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable",
+      "theme_color": "#ffffff"
+    },
+    {
+      "src": "/public/favicon.ico",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable",
+      "theme_color": "#000000"
+    }
+  ],
+
+  "display": "standalone"
+}
