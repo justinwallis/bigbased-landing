@@ -159,7 +159,7 @@ const Notification = ({
   );
 };
 
-export function About() {
+export default function About() {
   return (
     <section className="scroll-mt-20 pb-16 pt-16 sm:py-24" id="about">
       <div className="mx-auto flex max-w-7xl flex-col items-center md:flex-row md:px-6">

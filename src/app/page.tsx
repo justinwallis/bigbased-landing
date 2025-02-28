@@ -11,7 +11,7 @@ import { TestimonialsMarquee } from "@/components/sections/TestimonialsMarquee";
 import { Details } from "@/components/sections/Details";
 import Contact from "@/components/sections/contact";
 import NewsLetter from "@/components/sections/news-letter";
-import { About } from "@/components/sections/about";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
