@@ -37,7 +37,10 @@ const DotPattern = ({
 
 export function Matrix() {
   return (
-    <section className="scroll-mt-24 pb-10 pt-8 sm:pb-24" id="features">
+    <section
+      className="scroll-mt-28 pb-10 pt-8 sm:scroll-mt-36 sm:pb-24"
+      id="features"
+    >
       <div className="relative mx-auto max-w-7xl md:px-6">
         <div className="relative border border-zinc-800">
           <DotPattern width={5} height={5} />

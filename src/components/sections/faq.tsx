@@ -64,7 +64,7 @@ function FAQItem({ question, answer }: FAQItem) {
 
 export function FAQ() {
   return (
-    <section className="scroll-mt-28 py-2 sm:scroll-mt-0 sm:py-24" id="faq">
+    <section className="scroll-mt-28 py-2 sm:scroll-mt-10 sm:py-24" id="faq">
       {/* <div className="mb-12 text-center">
         <h2 className="text-3xl font-bold text-zinc-100 sm:text-4xl">
           Frequently Asked Questions

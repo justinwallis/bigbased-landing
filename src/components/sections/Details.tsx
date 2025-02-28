@@ -5,7 +5,7 @@ import { GridBackground } from "@/app/_components/glwoingcard";
 
 export function Details() {
   return (
-    <div className="my-5 flex scroll-mt-28 flex-col items-center gap-5 gap-y-10 sm:my-20 md:my-24 md:flex-row">
+    <div className="my-5 flex scroll-mt-32 flex-col items-center gap-5 gap-y-10 sm:my-20 md:my-24 md:flex-row">
       <div className="w-full text-center md:w-1/2 md:text-left">
         <h1 className="text-4xl font-bold tracking-tight text-zinc-100 md:text-5xl lg:text-6xl">
           AI-Powered <br className="hidden md:block" />
