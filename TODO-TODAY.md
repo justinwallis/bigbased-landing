@@ -35,7 +35,7 @@ issue: scroll on mobile is not working
 - [x] fixed
 - [ ] Stripe Integration – For subscription and payment system
 - [ ] AI Video Example
-- [ ] Terms of Service (TOS) – Construct and add
+- [x] Terms of Service (TOS) – Construct and add
 - [x] Install Favicons: Favicon Files (https://drive.google.com/drive/folders/1toLwxlhi-_9ZPNcwlY1pECz_oo7HY-Q9?usp=drive_link)
 - [x] Link to Pitch Deck: Pitch Deck (https://docs.google.com/presentation/d/1ikmUH3JYOl4W9yal9wc8jdh3ccKUboAs/edit)
 - [ ] Ribbon, possible to make into Animation, or slowly spin even, would that look good?
@@ -43,14 +43,10 @@ issue: scroll on mobile is not working
 - [x] Add Logo Carousel or Marquee for Stack:
        - Example: Logo Carousel (https://21st.dev/cult-ui/logo-carousel/default)
        - Example: Marquee (https://21st.dev/lukacho/marquee/default)
-- [ ] Marquee for Other AI Projects – Showcase related projects in the future
 - [x] Marquee for the AI's Used
 - [x] Link to Whitepaper: BigBased Whitepaper (https://BasedPitch.com)
 - [x] Pricing Section – Multiple tiers, not just Enterprise
-- [ ] Testimonial Section with Marquee: Testimonials Example (https://21st.dev/serafimcloud/testimonials-with-marquee/default)
-- [ ] About Section – New page with tooltip animation:
-      - Example: Animated Tooltip (https://21st.dev/aceternity/animated-tooltip/default)
-      - Example: Animated Testimonials (https://21st.dev/aceternity/animated-testimonials/default)
+- [x] Testimonial Section with Marquee: Testimonials Example (https://21st.dev/serafimcloud/testimonials-with-marquee/default)
 
 **Design Ideas** 
 - [x] Cool Button Borders: Star Border Button (https://21st.dev/DavidHDev/star-border/default)
@@ -59,9 +55,11 @@ issue: scroll on mobile is not working
 - [ ] Glowing Card Effect (subtle, slower, grey/white version): Glowing Card (https://21st.dev/jatin-yadav05/glowing-card/default)
 
 **Site Domain & Integration**
-BigBased.Tech or BigBased.io?
+BigBased.Tech (BigBased.io is an alt link) ?
 - [ ] Quick links to BigBased.AI, BigBased.com, BigBased.Dev
 - [ ] Add background animation or preview box for each link
+- [ ] Add long Matrix intro as loader for site
+- [ ] Add Maskym's matrix 
 
 **BigBased.Dev TODOs (Post BigBased.AI)  **
 - [ ] Based Hackathon Page – Quick page on BasedHackathon.com linking to Discord
