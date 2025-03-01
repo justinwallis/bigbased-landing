@@ -3,8 +3,8 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="scroll-mt-12 py-20" id="contact">
-      <div className="mx-auto max-w-7xl sm:px-6">
+    <div className="relative w-full scroll-mt-12 py-20" id="contact">
+      <div className="mx-auto max-w-7xl px-6">
         <h2 className="text-center text-3xl font-bold text-zinc-100 sm:text-4xl">
           Contact Us
         </h2>

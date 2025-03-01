@@ -12,23 +12,31 @@ import { Details } from "@/components/sections/Details";
 import Contact from "@/components/sections/contact";
 import NewsLetter from "@/components/sections/news-letter";
 import About from "@/components/sections/About";
+import { RetroGrid } from "./_components/retro-grid";
 
 export default function Home() {
   return (
-    <Container>
-      <Hero />
-      <MarqueeDemo />
-      <About />
-      <Details />
+    <div className="relative">
+      <Container>
+        <Hero />
+        <MarqueeDemo />
+        <About />
+        <Details />
 
-      <Matrix />
-      <TestimonialsMarquee />
-      {/* <Testimonials /> */}
-      {/* <Testimonials2 /> */}
-      <CTA />
-      <FAQ />
-      <Contact />
+        <Matrix />
+        <TestimonialsMarquee />
+        {/* <Testimonials /> */}
+        {/* <Testimonials2 /> */}
+        <CTA />
+        <FAQ />
+      </Container>
+      <div className="relative">
+        <RetroGrid />
+
+        <Contact />
+      </div>
+
       {/* <NewsLetter /> */}
-    </Container>
+    </div>
   );
 }
